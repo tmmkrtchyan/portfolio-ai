@@ -1,0 +1,18 @@
+# Ralph working files (generated during runs)
+prd.json
+progress.txt
+.last-branch
+
+# Archive is optional to commit
+# archive/
+
+# OS files
+.DS_Store
+
+# Claude (keep shared skills/settings, ignore local ones)
+.claude/settings.local.json
+.claude/worktrees/
+
+# Env files (never commit real values)
+.env*
+!.env.example
